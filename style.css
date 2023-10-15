@@ -1,0 +1,375 @@
+@import url(https://fonts.adobe.com/fonts/mulish-variable);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "mulish-variable",sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.header {
+    background-color: whitesmoke;
+    height: 52px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.headcontent{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.herocontent h1{
+    font-size: xx-large;
+}
+.headcontent p{
+  padding: 5px;
+}
+
+
+.header a{
+    text-decoration: none;
+}
+.button{
+    height: 36px;
+    padding: 10px 16px;
+    background-color: #2B84EA;
+    border-radius: 4px;
+    color: white;
+    font-size: small;
+    font-weight: 550;
+}
+.triangle1{
+    left: 0;
+    height: 52px;
+    width: 40px;
+    background-color: #2B84EA;
+    clip-path: polygon(0px 0px,0px 100%,100% 100%);
+}
+.triangle2{
+    right: 0;
+    height: 52px;
+    width: 40px;
+    background-color: #2B84EA;
+    clip-path: polygon(100% 0px,0px 0,100% 100%);
+}
+.main1{
+   position: relative;
+    justify-content: center;
+    background-color: #02042a;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: #02042a;
+    justify-content: center;
+}
+
+.card1{
+    width: 90%;
+    position: absolute;
+    color:#2B84EA;
+    background-color: white;
+    margin-right: 32px;
+}
+/* #item1:hover .card1{
+    scale: 1;
+} */
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.razoricon{
+    padding: 28px 22px 28px 0;
+}
+.navitem{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    padding: 32px 12px 16px;
+    cursor: pointer;
+    transform: translateY(5px);
+   
+}
+.item:hover{
+    color: #2B84EA;
+    cursor: pointer;
+}
+.item:hover .line{
+    scale:1;
+}
+.navbutton{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+#flag{
+    padding: 0px 12px;
+}
+.loginbutton{
+    border: 2px solid #2B84EA;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.signupbutton{
+    background-color: white;
+    color: #2B84EA;
+    margin-left: 16px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero{
+    width: 66rem;
+    display: flex;
+    margin: auto;
+}
+.herocontent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    color: white;
+    padding: 80px 0px;
+    padding-right: 10px;
+}
+.herocontent p{
+    color: #A8A8B6;
+    font-size: large;
+}
+.herohr{
+    height: 5px;
+    width: 30px;
+    background-color:#25F498;
+    
+}
+.hero img{
+    width: 65%;
+   
+}
+.signupnow{
+    width: 150px; 
+    background-color: #2B84EA;
+    color: white;
+    padding: 14px 18px;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+.signupnow:hover{
+    background-color: #0B72E7;
+    cursor: pointer;
+}
+.heroimg{
+    width:100vw;
+    background-color: white;
+}
+.heroimg img{
+    width:100%;
+}
+.line{
+    height:5px;
+    width: 100%;
+    background-color: #2B84EA;
+    scale:0;
+    transition: 0.2s;
+}
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.header2{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateY(-18px);
+}
+.box{
+    display: flex;
+    width: 72%;
+    height: 70%;
+    border: 2px solid #d7d7d7;
+    border-radius: 5px;
+    transform: translateY(-30px);
+
+}
+.boxleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.heading1{
+    top: 0;
+    font-size: x-large;
+    font-weight: 600;
+}
+#hr2{
+    height:5px;
+}
+#span1{
+    font-size: x-large;
+    font-weight: 700;
+}
+#span2{
+    font-size: x-large;
+    font-weight: 700;
+    color: #2B84EA;
+}
+.item2{
+    display: flex;
+
+}
+.tick{
+    padding-right: 20px;
+    color: #25F498;
+}
+.bttn{
+    display: flex;
+}
+.knowmore{
+    padding-left: 24px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #2B84EA;
+}
+.knowmore:hover {
+    color: #0B72E7;
+    cursor: pointer;
+}
+.boxright{
+    width: 50%;
+}
+.box img{
+    top: 0;
+    right: 0;
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(footer-head-bg.990e26df.svg);
+    background-size: contain;
+    color: white;
+    margin: auto;
+    height: 69vh;
+}
+.rght{
+    transform: scale(0.6);
+    padding-top: 0px;
+}
+.ticks{
+    display: flex;
+}
+.footer2{
+    display: flex;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-bottom: 30px;
+}
+
+.dv1{
+    max-width: 26.5%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+.dv1 span{
+    font-size: 0.875rem;
+}
+.rzicon{
+    width: 77%;
+    padding-bottom: 10px;
+}
+.rzicon img{
+    width: 77%;
+}
+.dv2{
+    display: flex;
+    flex-direction: column;
+    color: #0B72E7;
+    padding-right: 50px;
+
+}
+.dv2 h3{
+    color: #585858;
+
+}
+.dv3{
+    display: flex;
+    flex-direction: column;
+    color: #0B72E7;
+    padding-right: 50px;
+}
+.dv3 h3{
+    color: #585858;
+
+}
+.dv4{
+    display: flex;
+    flex-direction: column;
+    color: #0B72E7;
+}
+.dv4 h3{
+    color: #585858;
+
+}
+.gap{
+    padding: 10px;
+    padding-left: 0px;
+}
+.gap :hover{
+    cursor: crosshair;
+}
+.gap1{
+    padding-left: 20px;
+}
+.i1{
+    color: #E1306C;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.i2{
+    color: #0165E1;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.i3{
+    color: #0165E1;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.i4{
+    color: #0165E1;
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0px;
+}
+.i5{
+    font-size: 35px;
+    padding: 10px;
+    padding-left: 0px;
+    color: black;
+}
